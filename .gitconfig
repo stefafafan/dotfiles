@@ -1,0 +1,32 @@
+[user]
+	name = Stefan Utamaru
+	email = stefafafan@hatena.ne.jp
+[core]
+	editor = vim
+	excludesfile = /Users/stefafafan/.gitignore_global
+	autocrlf = input
+	safecrlf = true
+[push]
+	default = simple
+[url "git@github.com:"]
+	pushinsteadof = "git://github.com/"
+	pushinsteadof = "https://github.com/"
+[ghq]
+	root = ~/dev/src 
+[pull]
+	rebase = false
+	ff = only
+[merge]
+	ff = false
+[alias]
+	fetch-pulls = fetch origin +refs/pull/*:refs/remotes/pull/*
+	st = status
+	ci = commit
+	co = checkout
+	br = branch
+[color]
+	diff = auto
+	status = auto
+    branch = auto
+    interaction = auto
+    grep = auto
