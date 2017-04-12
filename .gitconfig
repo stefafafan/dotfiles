@@ -3,7 +3,7 @@
 	email = stefafafan@hatena.ne.jp
 [core]
 	editor = vim
-	excludesfile = /Users/stefafafan/.gitignore_global
+	excludesfile = ~/.gitignore_global
 	autocrlf = input
 	safecrlf = true
 [push]
@@ -27,6 +27,6 @@
 [color]
 	diff = auto
 	status = auto
-    branch = auto
-    interaction = auto
-    grep = auto
+	branch = auto
+	interaction = auto
+	grep = auto
