@@ -1,0 +1,14 @@
+[user]
+	name = Stefan Utamaru
+	email = github.le5ke@stenyan.jp
+[core]
+	editor = hx
+	autocrlf = false
+	safecrlf = true
+[push]
+	autoSetupRemote = true
+[alias]
+	br = branch
+	ci = commit
+	co = checkout
+	st = status
