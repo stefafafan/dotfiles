@@ -1,8 +1,8 @@
 [user]
 	name = Stefan Utamaru
-	email = stefafafan@hatena.ne.jp
+	email = github.le5ke@stenyan.jp
 [core]
-	editor = vim
+	editor = hx
 	excludesfile = ~/.gitignore_global
 	autocrlf = input
 	safecrlf = true
