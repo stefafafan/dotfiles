@@ -1,0 +1,28 @@
+import = ["~/.config/alacritty/themes/themes/argonaut.toml"]
+
+[shell]
+program = "/bin/zsh"
+args = ['--login']
+
+[window]
+decorations = "Full"
+opacity = 1.0
+blur = false
+startup_mode = "Maximized"
+
+[scrolling]
+history = 100000
+
+[font]
+size = 20
+
+[cursor.style]
+shape = "Beam"
+blinking = "On"
+
+[cursor]
+blink_interval = 500
+blink_timeout = 0
+
+[mouse]
+hide_when_typing = true
