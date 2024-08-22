@@ -1,0 +1,9 @@
+# Rancher Desktop
+test -d "${HOME}/.rd/bin" && export PATH="${HOME}/.rd/bin:${PATH}"
+
+eval "$(mise activate zsh)"
+eval "$(direnv hook zsh)"
+eval "$(starship init zsh)"
+eval "$(sheldon source)"
+eval "$(zoxide init bash)"
+source <(fzf --zsh)
