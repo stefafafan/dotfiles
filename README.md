@@ -3,6 +3,6 @@
 dotfiles are managed with chezmoi.
 
 ```sh
-brew install chezmoi
+brew bundle
 chezmoi init --apply stefafafan
 ```
