@@ -7,7 +7,7 @@ $git_state\
 $git_status\
 $cmd_duration\
 $line_break\
-$python\
+$aws\
 $character"""
 
 [directory]
@@ -41,6 +41,11 @@ style = "bright-black"
 format = "[$duration]($style) "
 style = "yellow"
 
-[python]
-format = "[$virtualenv]($style) "
-style = "bright-black"
+[aws]
+format = 'on [$symbol($profile )(\($region\) )]($style)'
+style = 'bold blue'
+symbol = '🅰 '
+
+[aws.region_aliases]
+ap-northeast-1 = 'tokyo'
+ap-northeast-3 = 'osaka'
