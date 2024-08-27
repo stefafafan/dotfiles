@@ -7,3 +7,6 @@ git = "https://github.com/zsh-users/zsh-syntax-highlighting.git"
 
 [plugins.zsh-autosuggestions]
 git = "https://github.com/zsh-users/zsh-autosuggestions.git"
+
+[plugins.zsh-abbr]
+git = "https://github.com/olets/zsh-abbr.git"
